@@ -1,4 +1,7 @@
-# Task 5 — Structured JSON Output from an LLM
+<div align="center">
+<img src="./banner.png" width="140" height="140" style="border-radius:50%; object-fit:cover;" alt="NeuroFive Solutions"/>
+
+# Structured JSON Output from an LLM
 
 Forces an LLM to always return valid, schema-conformant JSON extracted from a
 free-text support message, so the output can be dropped straight into an app
