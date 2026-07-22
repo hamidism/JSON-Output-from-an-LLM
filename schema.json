@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": ["string", "null"]
+    },
+    "email": {
+      "type": ["string", "null"],
+      "format": "email"
+    },
+    "issue_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "Billing",
+        "Technical",
+        "Account",
+        "Shipping",
+        "Refund",
+        "Product",
+        "Other",
+        null
+      ]
+    },
+    "urgency": {
+      "type": ["string", "null"],
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical",
+        null
+      ]
+    },
+    "order_id": {
+      "type": ["string", "null"]
+    },
+    "description": {
+      "type": ["string", "null"]
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "issue_type",
+    "urgency",
+    "order_id",
+    "description"
+  ],
+  "additionalProperties": false
+}

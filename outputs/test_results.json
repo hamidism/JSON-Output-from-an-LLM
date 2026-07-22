@@ -1,0 +1,74 @@
+[
+    {
+        "sample": 1,
+        "valid": true,
+        "json": {
+            "name": "Hamid Rafaqat",
+            "email": "hamid@example.com",
+            "issue_type": "Billing",
+            "urgency": "High",
+            "order_id": "ORD-12345",
+            "description": "charged twice"
+        }
+    },
+    {
+        "sample": 2,
+        "valid": true,
+        "json": {
+            "name": "Sarah",
+            "email": "sarah@gmail.com",
+            "issue_type": "Account",
+            "urgency": "Medium",
+            "order_id": null,
+            "description": "cannot log into my account"
+        }
+    },
+    {
+        "sample": 3,
+        "valid": true,
+        "json": {
+            "name": null,
+            "email": "ali@gmail.com",
+            "issue_type": "Technical",
+            "urgency": "High",
+            "order_id": "A98765",
+            "description": "My laptop screen is broken"
+        }
+    },
+    {
+        "sample": 4,
+        "valid": true,
+        "json": {
+            "name": "Ahmed",
+            "email": null,
+            "issue_type": "Shipping",
+            "urgency": "Medium",
+            "order_id": null,
+            "description": "My package has not arrived."
+        }
+    },
+    {
+        "sample": 5,
+        "valid": true,
+        "json": {
+            "name": "Maria Joseph",
+            "email": "maria@gmail.com",
+            "issue_type": "Refund",
+            "urgency": "Medium",
+            "order_id": null,
+            "description": "I requested a refund last week"
+        }
+    },
+    {
+        "sample": 6,
+        "valid": true,
+        "json": {
+            "name": "Bob",
+            "email": null,
+            "issue_type": null,
+            "urgency": null,
+            "order_id": null,
+            "description": null
+        }
+    }
+]
